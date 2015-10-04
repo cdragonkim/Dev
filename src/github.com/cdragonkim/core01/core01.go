@@ -72,8 +72,90 @@ func usingConstant() {
 	const age1 = 10       //대입하는 자료형으로 결정
 	const name2 = "Maria" //대입하는 자료형으로 결정
 	// const addr //compile error
+
+	const x, y int = 30, 50
+	const agex, namex = 10, "Taiji"
+
+	const (
+		x1, y1      int = 30, 70
+		agez, namez     = 10, "Kim"
+	)
 }
+
+func usingEnum() {
+	const SundayZ = 0
+	const MondayZ = 1
+	const TusedayZ = 2
+	const WednesdayZ = 3
+	const ThrusdayZ = 4
+	const FridayZ = 5
+	const SaturdayZ = 6
+	const nunmerOfDaysZ = 7
+	// or
+	const (
+		Sunday1      = 0
+		Monday1      = 1
+		Tuseday1     = 2
+		Wednesday1   = 3
+		Thrusday1    = 4
+		Friday1      = 5
+		Saturday1    = 6
+		nunmerOfDay1 = 7
+	)
+	//or
+	const (
+		Sunday = iota
+		//Sunday = iota + 1
+		Monday
+		Tuseday
+		Wednesday
+		Thrusday
+		Friday
+		Saturday
+		nunmerOfDay
+	)
+
+	fmt.Println(Thrusday)
+	fmt.Println(nunmerOfDay)
+	fmt.Println("--------------------")
+	const (
+		a = 1 << iota
+		b = 1 << iota
+		c = 1 << iota
+		d = 1 << iota
+	)
+	fmt.Println(a)
+	fmt.Println(b)
+	fmt.Println(c)
+	fmt.Println(d)
+	fmt.Println("--------------------")
+	const (
+		a1 = iota * 30
+		b1 = iota * 30
+		c1 = iota * 30
+		d1 = iota * 30
+	)
+	fmt.Println(a1)
+	fmt.Println(b1)
+	fmt.Println(c1)
+	fmt.Println(d1)
+
+	fmt.Println("-- 특정 상수 iota 생략 --------")
+	const (
+		bit0, mask0 = 1 << iota, 1<<iota - 1
+		bit1, mask1
+		_, _
+		bit3, mask3
+	)
+	fmt.Println(bit0, mask0)
+	fmt.Println(bit1, mask1)
+	fmt.Println(bit3, mask3)
+}
+
 func main() {
+	fmt.Println("-- unit12 euum Constant 사용하기")
+	usingEnum()
+
 	fmt.Println("-- unit11 Constant 사용하기")
 	usingConstant()
 
