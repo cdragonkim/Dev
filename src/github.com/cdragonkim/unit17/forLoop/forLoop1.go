@@ -4,6 +4,19 @@ import (
 	"fmt"
 )
 
+func ForBreakLoop() {
+Loop:
+	//fmt.Println("begin for loop")
+	for i := 0; i < 3; i++ {
+		for j := 0; j < 3; j++ {
+			if j == 2 {
+				break Loop
+			}
+			fmt.Println(i, j)
+		}
+	}
+	fmt.Println(("Hello, Loop"))
+}
 func ForBreak1() {
 	i := 0
 	for {
