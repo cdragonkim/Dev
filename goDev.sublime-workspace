@@ -7,22 +7,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "goDev.sublime-project",
-			"settings":
-			{
-				"buffer_size": 45,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/github.com/cdragonkim/hello/hello.go",
-			"settings":
-			{
-				"buffer_size": 133,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -62,13 +46,14 @@
 	"expanded_folders":
 	[
 		"/Users/cdragon/Dev",
-		"/Users/cdragon/Dev/src",
 		"/Users/cdragon/Dev/src/github.com",
 		"/Users/cdragon/Dev/src/github.com/cdragonkim",
-		"/Users/cdragon/Dev/src/github.com/cdragonkim/hello"
+		"/Users/cdragon/let-it-go"
 	],
 	"file_history":
 	[
+		"/Users/cdragon/Dev/goDev.sublime-project",
+		"/Users/cdragon/test.txt",
 		"/Users/cdragon/Library/Application Support/Sublime Text 3/Packages/GoSublime/CHANGELOG.md"
 	],
 	"find":
@@ -104,65 +89,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "goDev.sublime-project",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 45,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/github.com/cdragonkim/hello/hello.go",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 133,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -244,10 +172,10 @@
 	{
 	},
 	"show_minimap": true,
-	"show_open_files": false,
+	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 155.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
