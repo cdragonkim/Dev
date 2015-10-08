@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	fmt.Println("for goto 연습")
+	fmt.Println(" goto 연습")
 	GotoStmt.GotoStmt1()
 	fmt.Println("--------------")
 }
