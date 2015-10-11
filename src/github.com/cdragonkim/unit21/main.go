@@ -6,6 +6,26 @@ import (
 )
 
 func main() {
+	fmt.Println(" 부분 slice practice5")
+	arrayPractices.SlicePractice10()
+	fmt.Println("--------------")
+
+	fmt.Println(" 부분 slice practice4")
+	arrayPractices.SlicePractice9()
+	fmt.Println("--------------")
+
+	fmt.Println(" 부분 slice practice3")
+	arrayPractices.SlicePractice8()
+	fmt.Println("--------------")
+
+	fmt.Println(" 부분 slice practice2")
+	arrayPractices.SlicePractice7()
+	fmt.Println("--------------")
+
+	fmt.Println(" 부분 slice practice1")
+	arrayPractices.SlicePractice6()
+	fmt.Println("--------------")
+
 	fmt.Println(" slice copy practice2")
 	arrayPractices.SliceCopyPractice2()
 	fmt.Println("--------------")
