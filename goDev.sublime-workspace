@@ -3,59 +3,34 @@
 	{
 		"selected_items":
 		[
-			[
-				"for",
-				"forLoop	 package ρ"
-			],
-			[
-				"Pr",
-				"Printf	n int, err error ƒ"
-			],
-			[
-				"if",
-				"ifStmt	 package ρ"
-			],
-			[
-				"func",
-				"func main	func main {...} ʂ"
-			],
-			[
-				"P",
-				"Println	n int, err error ƒ"
-			],
-			[
-				"imp",
-				"import	import (...) ʂ"
-			],
-			[
-				"m",
-				"func main	func main {...} ʂ"
-			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "src/github.com/cdragonkim/unit18/main.go",
+			"file": "/Users/cdragon/Library/Application Support/Sublime Text 3/Packages/GoSublime/CHANGELOG.md",
 			"settings":
 			{
-				"buffer_size": 168,
+				"buffer_size": 31499,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/github.com/cdragonkim/unit18/GotoStmt/GotoStmt.go",
+			"contents": "Package Control Messages\n========================\n\nEmmet\n-----\n\n  Thank you for installing Emmet -- a toolkit that can greatly improve your workflow. Note that this plugin automatically downloads and installs PyV8 binary (see status bar message). \n  \n  ******************************\n  Please restart editor \n  to finish installation process \n  after PyV8 was downloaded.\n  ******************************\n  \n  Tab key handler\n  ==========================\n  \n  By default, Emmet allows you to expand abbreviations with Tab key in HTML, XML, HAML and CSS/SASS/LESS/Stylus documents. As a side effect, you can’t use some of your ST2 snippets.\n  \n  Please read https://github.com/sergeche/emmet-sublime#tab-key-handler about how Tab handler works and how to tweak its behavior to match your needs.\n  \n  Enter key\n  ==========================\n  \n  In HTML and XML documents, Emmet overrides Enter key to insert formatted line breaks between opening and closing tags. In some cases it will break character input (for example, in Japanese language).\n  \n  To disable Enter key handler, simply add the following option in your user's Preferences file:\n  \n  \"disable_formatted_linebreak\": true\n  \n  Actions shortcuts\n  ==========================\n  \n  Emmet has a number of actions with keyboard shortcuts that may override ones you're using commonly (for example, Ctrl-E or Ctrl-Down). Please read the project main page to get list of available actions and keyboard shortcuts and how to disable them:\n  https://github.com/sergeche/emmet-sublime\n  \n  Documentation and examples:\n  http://emmet.io\n  \n  ------------------------------\n  Follow me on Twitter: @emmetio\n  ------------------------------\n",
 			"settings":
 			{
-				"buffer_size": 296,
-				"line_ending": "Unix"
+				"buffer_size": 1688,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
 			}
 		},
 		{
-			"file": "src/github.com/cdragonkim/unit17/main.go",
+			"file": "/Users/cdragon/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 			"settings":
 			{
-				"buffer_size": 624,
+				"buffer_size": 192,
 				"line_ending": "Unix"
 			}
 		}
@@ -68,15 +43,15 @@
 	"command_palette":
 	{
 		"height": 359.0,
-		"last_filter": "pa",
+		"last_filter": "Package Control: ",
 		"selected_items":
 		[
 			[
-				"pa",
+				"Package Control: ",
 				"Package Control: Install Package"
 			]
 		],
-		"width": 449.0
+		"width": 384.0
 	},
 	"console":
 	{
@@ -97,45 +72,14 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/cdragon/Dev",
-		"/Users/cdragon/Dev/src",
-		"/Users/cdragon/Dev/src/github.com",
-		"/Users/cdragon/Dev/src/github.com/cdragonkim",
-		"/Users/cdragon/Dev/src/github.com/cdragonkim/unit16",
-		"/Users/cdragon/Dev/src/github.com/cdragonkim/unit17",
-		"/Users/cdragon/Dev/src/github.com/cdragonkim/unit17/forLoop",
-		"/Users/cdragon/Dev/src/github.com/cdragonkim/unit18",
-		"/Users/cdragon/Dev/src/github.com/cdragonkim/unit18/GotoStmt",
-		"/Users/cdragon/let-it-go",
-		"/Users/cdragon/let-it-go/src",
-		"/Users/cdragon/let-it-go/src/unit09",
-		"/Users/cdragon/let-it-go/src/unit16",
-		"/Users/cdragon/let-it-go/src/unit17",
-		"/Users/cdragon/let-it-go/src/unit18"
+		"/Users/cdragon/Dev"
 	],
 	"file_history":
 	[
-		"/Users/cdragon/Dev/src/github.com/cdragonkim/unit18/GotoStmt/GotoStmt.go",
-		"/Users/cdragon/Dev/src/github.com/cdragonkim/unit15/ifStmt/ifStmt1.go",
-		"/Users/cdragon/Dev/src/github.com/cdragonkim/unit14/cpuCount/cpuCount.go",
-		"/Users/cdragon/Dev/src/github.com/cdragonkim/unit14/main.go",
-		"/Users/cdragon/Dev/src/github.com/cdragonkim/unit17/forLoop/forParaVar.go",
-		"/Users/cdragon/Dev/src/github.com/cdragonkim/unit17/forLoop/forContinue.go",
-		"/Users/cdragon/Dev/src/github.com/cdragonkim/unit17/forLoop/forLoop1.go",
-		"/Users/cdragon/Dev/src/github.com/cdragonkim/unit15/main.go",
-		"/Users/cdragon/Dev/src/github.com/cdragonkim/unit16/main.go",
-		"/Users/cdragon/Dev/src/github.com/cdragonkim/unit17/main.go",
-		"/Users/cdragon/Dev/src/github.com/cdragonkim/unit18/README.md",
-		"/Users/cdragon/Dev/src/github.com/cdragonkim/unit18/main.go",
-		"/Users/cdragon/Dev/src/github.com/cdragonkim/unit16/hello.txt",
-		"/Users/cdragon/Dev/src/github.com/cdragonkim/unit14/cpuCount.go",
-		"/Users/cdragon/Dev/goDev.sublime-project",
-		"/Users/cdragon/test.txt",
-		"/Users/cdragon/Library/Application Support/Sublime Text 3/Packages/GoSublime/CHANGELOG.md"
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 33.0
 	},
 	"find_in_files":
 	{
@@ -166,74 +110,16 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/github.com/cdragonkim/unit18/main.go",
+					"file": "/Users/cdragon/Library/Application Support/Sublime Text 3/Packages/GoSublime/CHANGELOG.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 168,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								168,
-								168
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/github.com/cdragonkim/unit18/GotoStmt/GotoStmt.go",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 296,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								220,
-								220
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/github.com/cdragonkim/unit17/main.go",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 624,
+						"buffer_size": 31499,
 						"regions":
 						{
 						},
@@ -246,14 +132,73 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
 							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2900.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1688,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								78,
+								78
+							]
+						],
+						"settings":
+						{
+							"auto_indent": false,
+							"default_dir": "/Users/cdragon/Dev",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/cdragon/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 192,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								192,
+								192
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -265,7 +210,7 @@
 	},
 	"input":
 	{
-		"height": 31.0
+		"height": 0.0
 	},
 	"layout":
 	{
@@ -290,50 +235,6 @@
 		]
 	},
 	"menu_visible": true,
-	"output.9o:///Users/cdragon/Dev/src/github.com/cdragonkim/hello":
-	{
-		"height": 100.0
-	},
-	"output.9o:///Users/cdragon/Dev/src/github.com/cdragonkim/unit14":
-	{
-		"height": 100.0
-	},
-	"output.9o:///Users/cdragon/Dev/src/github.com/cdragonkim/unit14/cpuCount":
-	{
-		"height": 100.0
-	},
-	"output.9o:///Users/cdragon/Dev/src/github.com/cdragonkim/unit15":
-	{
-		"height": 100.0
-	},
-	"output.9o:///Users/cdragon/Dev/src/github.com/cdragonkim/unit15/ifStmt":
-	{
-		"height": 100.0
-	},
-	"output.9o:///Users/cdragon/Dev/src/github.com/cdragonkim/unit16":
-	{
-		"height": 100.0
-	},
-	"output.9o:///Users/cdragon/Dev/src/github.com/cdragonkim/unit17":
-	{
-		"height": 100.0
-	},
-	"output.9o:///Users/cdragon/Dev/src/github.com/cdragonkim/unit17/forLoop":
-	{
-		"height": 100.0
-	},
-	"output.9o:///Users/cdragon/Dev/src/github.com/cdragonkim/unit18":
-	{
-		"height": 100.0
-	},
-	"output.9o:///Users/cdragon/Dev/src/github.com/cdragonkim/unit18/GotoStmt":
-	{
-		"height": 100.0
-	},
-	"output.9o:///Users/cdragon/let-it-go/src/unit14":
-	{
-		"height": 100.0
-	},
 	"output.find_results":
 	{
 		"height": 0.0
@@ -377,10 +278,10 @@
 	{
 	},
 	"show_minimap": true,
-	"show_open_files": true,
+	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 215.0,
+	"side_bar_width": 150.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
