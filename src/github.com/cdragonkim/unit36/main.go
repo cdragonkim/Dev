@@ -15,7 +15,12 @@ func main() {
 	// reflectionPractices.ReflectionPrac12()
 	// fmt.Println("***********************")
 
-	fmt.Println("-- 구조체 태그 --")
-	reflectionPractices.ReflectionPrac21()
+	// fmt.Println("-- 구조체 태그 --")
+	// reflectionPractices.ReflectionPrac21()
+	// fmt.Println("***********************")
+
+	fmt.Println("-- Reflection 연습 추가 1 --")
+	reflectionPractices.ReflectionPracX1()
 	fmt.Println("***********************")
+
 }

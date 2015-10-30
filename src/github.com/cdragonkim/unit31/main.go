@@ -9,4 +9,8 @@ func main() {
 	fmt.Println("-- Struct Embedding Practice 1 --")
 	embeddingPractices.EmbeddingPrac11()
 	fmt.Println("***********************")
+
+	fmt.Println("-- Struct Embedding Practice 1 --")
+	embeddingPractices.EmbeddingPrac11()
+	fmt.Println("***********************")
 }
