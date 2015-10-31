@@ -19,8 +19,11 @@ func main() {
 	// reflectionPractices.ReflectionPrac21()
 	// fmt.Println("***********************")
 
-	fmt.Println("-- Reflection 연습 추가 1 --")
-	reflectionPractices.ReflectionPracX1()
-	fmt.Println("***********************")
+	// fmt.Println("-- Reflection 연습 추가 1 --")
+	// reflectionPractices.ReflectionPracX1()
+	// fmt.Println("***********************")
 
+	fmt.Println("-- 포인터와 인터페이스 값 가져오기 --")
+	reflectionPractices.ReflectionPrac31()
+	fmt.Println("***********************")
 }
