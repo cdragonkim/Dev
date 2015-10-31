@@ -15,7 +15,4 @@
         그리고 타입에 맞는 Int, Float, String 함수로 값 가져 옮
       :   
 
-# 동적으로 함수 생성하기
-  - reflect.MakeFunc 함수 사용
-  - 매개변수와 리턴값은 반드시 []reflect.Value 사용
 
