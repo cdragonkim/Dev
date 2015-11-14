@@ -10,5 +10,5 @@ import (
 
 func main() {
 	fmt.Println(stringutil.Reverse("olleh"))
-	fmt.Println(calc.Sum(1, 2)) // calc 패키지의 Sum 함수 사용
+	fmt.Println(calc.Sum(3, 2)) // calc 패키지의 Sum 함수 사용
 }
