@@ -27,4 +27,28 @@ func PrintFuncPrac11() {
 	fmt.Println(p)
 	fmt.Println(data)
 	fmt.Println(i)
+	fmt.Println("-------------------------")
+
+	fmt.Printf("정수: %d\n", num1)   // 정수: 10
+	fmt.Printf("실수: %f\n", num2)   // 실수: 3.2
+	fmt.Printf("복소수: %f\n", num3)  // 복소수: (2.500000+8.100000i)
+	fmt.Printf("문자열: %s\n", s)     // 문자열: Hello, world!
+	fmt.Printf("불: %t\n", b)       // 불: true
+	fmt.Printf("슬라이스: %v\n", a)    // 슬라이스: [1 2 3]
+	fmt.Printf("맵: %v\n", m)       // 맵: map[Hello:1]
+	fmt.Printf("포인터: %p\n", p)     // 포인터: 0xc0820062d0 (메모리 주소)
+	fmt.Printf("구조체: %+v\n", data) // 구조체: {1 2}
+	fmt.Printf("인터페이스: %#v\n", i)  // 인터페이스: 1
+
+	fmt.Printf("%d %f %s\n", num1, num2, s) // 10 3.200000 Hello, world!
+}
+
+func PrintFuncPrac12() {
+	fmt.Printf("%3d\n", 1)
+	fmt.Printf("%3d\n", 12345)
+	fmt.Printf("%03d\n", 1)
+	fmt.Printf("%+d, %d\n", 1, -1)
+	fmt.Printf("%9f\n", 1.1234567)
+	fmt.Printf("%09f\n", 1.1234567)
+	fmt.Printf("%9.2f\n", 1234567.0)
 }
