@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+
 	"github.com/cdragonkim/unit42/scanFuncPractices"
 )
 
